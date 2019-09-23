@@ -1,17 +1,8 @@
 import React from 'react'
-
-class About extends React.Component {
-    constructor(props){
-        super(props)
-        this.state = {
-            message: "Yeah Buddy"
-        }
-    }
-    render(){
-        return(
-            this.state.message
-        )
-    }
-}
-
-export default About
+export default function About() {
+     return(
+         <h2>We are bunch of legends. Yeah buddy</h2>
+     )
+ }
+ 
+ 
