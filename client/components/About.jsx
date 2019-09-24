@@ -1,8 +1,9 @@
 import React from 'react'
-export default function About() {
+
+function About() {
      return(
-         <h2>We are bunch of legends. Yeah buddy</h2>
+         <h2>working</h2>
      )
  }
  
- 
+ export default About
